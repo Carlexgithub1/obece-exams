@@ -1,0 +1,34 @@
+<%- include("partials/_header", {title:`Probatoire C - Session de ${session}`}) %>
+
+<div class="wrapper">
+    <h1 class="title">Probatoire C</h1>
+    <main class="main">
+        <div class="section-search">
+            <input type="text" name="search" id="search-box" class="search-box" placeholder="Rechercher une epreuve">
+            <button class="search-btn">
+                <span class="material-symbols-outlined">search</span>
+            </button>
+        </div>
+        <div class="section-content">
+            <ul class="sessions-list list">
+
+                <% if (typeof papers !== "undefined" && papers.length > 0) { %>
+
+                    <% papers.sort((a, b) => a.title - b.title).forEach(paper => { %>
+                    <a href="<%= paper.link %>" class="session-link session-item list-item">
+                        <li class="">
+                            <%= paper.title %>
+                        </li>
+                    </a>
+                    <% }) %>     
+
+                <% } else { %>
+                    <li class="no-sessions list-item disabled" disabled>Aucune epreuve disponible.</li>
+                <% } %>
+                                
+            </ul>
+        </div>
+    </main>
+</div>
+
+<%- include("partials/_footer") %>

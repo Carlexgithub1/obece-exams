@@ -1,0 +1,65 @@
+:root {
+  /* Couleurs principales */
+  --color-primary: hsl(216, 100%, 50%);
+  /* --color-primary-dark: hsl(161, 100%, 39%); */
+
+  /* Texte */
+  --color-text-dark: hsl(0, 0%, 12%);
+  --color-text-body: hsl(0, 0%, 24%);
+  --color-text-light: hsl(0, 0%, 48%);
+
+  /* Backgrounds */
+  --color-bg-white: hsl(0, 0%, 100%);
+  --color-bg-light: hsl(0, 0%, 96%);
+  --color-bg-overlay: hsl(0, 0%, 91%);
+
+  /* Boutons */
+  --color-btn-primary-bg: hsl(216, 100%, 50%);
+  --color-btn-primary-text: hsl(0, 0%, 12%);
+  --color-btn-secondary-bg: hsl(0, 0%, 100%);
+  --color-btn-secondary-text: hsl(0, 0%, 12%);
+  --color-btn-border: hsl(0, 0%, 82%);
+
+  /* Icônes */
+  --color-icon-bg: hsl(0, 0%, 94%);
+  --color-icon: hsl(0, 0%, 12%);
+
+  /* Bordures */
+  --color-border: hsl(0, 0%, 87%);
+}
+
+/* ===========================
+   DARK MODE (système)
+   =========================== */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Couleurs principales */
+    --color-primary: hsl(216, 100%, 62%);
+    /* --color-primary-dark: hsl(161, 100%, 50%); */
+
+    /* Texte */
+    --color-text-dark: hsl(0, 0%, 95%);
+    --color-text-body: hsl(0, 0%, 78%);
+    --color-text-light: hsl(0, 0%, 55%);
+
+    /* Backgrounds */
+    --color-bg-white: hsl(0, 0%, 10%);
+    --color-bg-light: hsl(0, 0%, 14%);
+    --color-bg-overlay: hsl(0, 0%, 18%);
+
+    /* Boutons */
+    --color-btn-primary-bg: hsl(216, 100%, 50%);
+    --color-btn-primary-text: hsl(0, 0%, 100%);
+    --color-btn-secondary-bg: hsl(0, 0%, 14%);
+    --color-btn-secondary-text: hsl(0, 0%, 95%);
+    --color-btn-border: hsl(0, 0%, 28%);
+
+    /* Icônes */
+    --color-icon-bg: hsl(0, 0%, 20%);
+    --color-icon: hsl(0, 0%, 90%);
+
+    /* Bordures */
+    --color-border: hsl(0, 0%, 22%);
+  }
+}
