@@ -1,11 +1,13 @@
-    <a href="/" class="title">
-        <picture>
-            <source srcset="/ico/logo_w.svg" media="(prefers-color-scheme: dark)">
-            <img src="/ico/logo_b.svg" alt="Logo">
-        </picture>
-    </a>
-
-    <% if (typeof msg !== "undefined") { %>
-    <p class="title-msg"><%= msg %></p>
-    <% } %>
+<div class="title">
+    <a href="/">
+            <picture style="display: inline;">
+                <source srcset="/ico/logo_w.png" media="(prefers-color-scheme: dark)">
+                <img src="/ico/logo_b.png" alt="Logo" style="height: 4rem;">
+            </picture>
+        </a>
     
+        <% if (typeof msg !== "undefined") { %>
+        <p class="title-msg"><%= msg %></p>
+        <% } %>
+        
+</div>
