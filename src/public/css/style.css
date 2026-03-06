@@ -80,7 +80,8 @@ button, .btn{
 }
 
 .list-item.disabled{
-    opacity: .5;
+    opacity: .3;
+    /* background-color: var(--color-bg-light); */
     cursor: not-allowed;
 }
 .list-item.disabled:hover{
