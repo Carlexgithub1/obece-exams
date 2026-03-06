@@ -8,16 +8,15 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
-    transition: all 300ms ease;
 }
 
 .wrapper{
     width: 100%;
     max-width: 62rem;
     margin-inline: auto;
-
-    padding: 8rem 1rem;
-
+    
+    padding: 5rem 1rem;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +24,8 @@
     gap: 2rem;
 }
 
-input, button, textarea, select, .list-item{
+input, button, textarea, select, .list-item, .btn{
+    transition: scale, opacity, scale 0.3s ease;
     width: 100%;
     display: flex;
     align-items: center;
@@ -37,14 +37,18 @@ input, button, textarea, select, .list-item{
     background: var(--color-bg-light);
 }
 
-button{
+button, .btn{
     background: var(--color-btn-primary-bg);
     /* border-radius: 999rem; */
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer
+    cursor: pointer;
+
+    width: 100px;
+    padding-inline: .5rem;
+    height: 47px;
 }
 
 .material-symbols-outlined {
@@ -69,9 +73,17 @@ button{
     background: none;
 }
 
-.list-item:hover{
+.list-item:hover, button:hover, .btn:hover{
     opacity: .8;
     scale: 1.02;
+}
+
+.list-item.disabled{
+    opacity: .3;
+    cursor: not-allowed;
+}
+.list-item.disabled:hover{
+    scale: 1;
 }
 
 .main{
@@ -90,9 +102,18 @@ button{
     flex-grow: 1;
 }
 
+button.search-btn, button.home-btn{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .search-btn{
     margin-left: .5rem;
-    width: 80px;
-    padding-inline: .5rem;
-    height: 47px;
 }
+
+.home-btn{
+    margin-right: .5rem;
+}
+

@@ -108,7 +108,7 @@ small, .text-sm {
    =========================== */
 
 a {
-  color: var(--color-primary);
+  color: var(--color-text-body);
   text-decoration: none;
   font-weight: var(--weight-medium);
   transition: color 0.2s ease;
