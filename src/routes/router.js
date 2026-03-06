@@ -1,18 +1,18 @@
 const router = require("express").Router();
 
-const {renderHomepage, renderPagenotfound} = require("../controllers/HomeController");
-const {renderSession, getSessions} = require("../controllers/SessionsController");
-const {getPaper, getPapers} = require("../controllers/PapersController");
+const {renderHomepage, renderPagenotfound} = require("../controllers/HomeControllers");
+const {renderExam, getExams} = require("../controllers/ExamsControllers");
+const {getSerie, getSeries} = require("../controllers/SeriesControllers");
 
 // ui
 router.get("/", renderHomepage);
-router.get("/session/:id", renderSession);
+router.get("/exam/:id", renderExam);
 router.use(renderPagenotfound);
 
 // api
-router.get("/api/get-sessions", getSessions);
-router.get("/api/get-paper/:id", getPaper);
-router.post("/api/get-papers", getPapers);
+// router.get("/api/get-exams", getExams);
+// router.get("/api/get-serie/:id", getSerie);
+// router.post("/api/get-series", getSeries);
 
 function route(app){
     app.use(router);

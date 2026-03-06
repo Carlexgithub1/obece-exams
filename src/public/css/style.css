@@ -71,6 +71,7 @@ button, .btn{
 
 .list-item {
     background: none;
+    border-color: var(--color-text-white);
 }
 
 .list-item:hover, button:hover, .btn:hover{
@@ -79,8 +80,9 @@ button, .btn{
 }
 
 .list-item.disabled{
-    opacity: .3;
+    opacity: .5;
     cursor: not-allowed;
+    border-color: var(--color-border);
 }
 .list-item.disabled:hover{
     scale: 1;
@@ -117,3 +119,13 @@ button.search-btn, button.home-btn{
     margin-right: .5rem;
 }
 
+.serie-category{
+    /* margin-top: 1rem; */
+    margin: 1rem 0;
+    padding: .5rem 0;
+    /* text-transform: capitalize; */
+    /* background-color: var(--color-bg-light); */
+    height: fit-content;
+    /* border-bottom: 1px solid var(--color-text-light) */
+    font-weight: 600;
+}

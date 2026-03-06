@@ -1,8 +1,7 @@
-<%- include("partials/_header", {title:"Epreuves - Probatoire C"}) %>
+<%- include("partials/_header") %>
 
 <div class="wrapper">
-    <h1 class="title" style="display: flex; align-items: center; gap: .8rem"><img src="/ico/ico.svg" alt="" srcset="" style="height: 3rem; margin-top: -.3rem;">Probatoire C</h1>
-    <p>Selectionnez une sessions</p>
+    <%- include("components/title", {msg: "Selectionnez un examen"}) %>
     <main class="main">
         <div class="section-search">
             <input type="text" name="search" id="search-box" class="search-box" placeholder="Rechercher une epreuve">
@@ -13,18 +12,18 @@
         <div class="section-content">
             <ul class="sessions-list list">
 
-                <% if (typeof sessions !== "undefined" && sessions.length > 0) { %>
+                <% if (typeof exams !== "undefined" && exams.length > 0) { %>
 
-                    <% sessions.sort((a, b) => b.session - a.session).forEach(session => { %>
-                    <a href="/session/<%= session.session %>" class="session-link session-item list-item">
+                    <% exams.forEach(exam => { %>
+                    <a href="/exam/<%= exam.id %>" class="exam-link exam-item list-item">
                         <li class="">
-                            <%= session.session %>
+                            <%= exam.title %>
                         </li>
                     </a>
-                    <% }) %>     
+                    <% }) %>
 
                 <% } else { %>
-                    <li class="no-sessions list-item disabled">No sessions found.</li>
+                    <li class="no-exams list-item disabled">No sessions found.</li>
                 <% } %>
                                 
             </ul>

@@ -1,0 +1,320 @@
+[
+    {
+        "id": 2,
+        "title": "Probatoire",
+        "series": [
+            {
+                "type": "enseignement général",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "A4",
+                        "speciality": "allemand",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "A4",
+                        "speciality": "espagnol",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "C",
+                        "speciality": "",
+                        "link": "https://probatoire-c.onrender.com"
+                    },
+                    {
+                        "id": 4,
+                        "serie": "D",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "type": "enseignement technique",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "F1",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "F2",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "F3",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 4,
+                        "serie": "F4",
+                        "speciality": "BA",
+                        "link": ""
+                    },
+                    {
+                        "id": 5,
+                        "serie": "F4",
+                        "speciality": "BE",
+                        "link": ""
+                    },
+                    {
+                        "id": 6,
+                        "serie": "F4",
+                        "speciality": "TP",
+                        "link": ""
+                    },
+                    {
+                        "id": 7,
+                        "serie": "F5",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 8,
+                        "serie": "F6",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 9,
+                        "serie": "F7",
+                        "speciality": "Biochimie",
+                        "link": ""
+                    },
+                    {
+                        "id": 10,
+                        "serie": "F7",
+                        "speciality": "Biologie",
+                        "link": ""
+                    },
+                    {
+                        "id": 11,
+                        "serie": "F8",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Baccalauréat",
+        "series": [
+            {
+                "type": "enseignement général",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "A4",
+                        "speciality": "allemand",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "A4",
+                        "speciality": "espagnol",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "C",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 4,
+                        "serie": "D",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "type": "enseignement technique",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "F1",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "F2",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "F3",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 4,
+                        "serie": "F4",
+                        "speciality": "BA",
+                        "link": ""
+                    },
+                    {
+                        "id": 5,
+                        "serie": "F4",
+                        "speciality": "BE",
+                        "link": ""
+                    },
+                    {
+                        "id": 6,
+                        "serie": "F4",
+                        "speciality": "TP",
+                        "link": ""
+                    },
+                    {
+                        "id": 7,
+                        "serie": "F5",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 8,
+                        "serie": "F6",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 9,
+                        "serie": "F7",
+                        "speciality": "Biochimie",
+                        "link": ""
+                    },
+                    {
+                        "id": 10,
+                        "serie": "F7",
+                        "speciality": "Biologie",
+                        "link": ""
+                    },
+                    {
+                        "id": 11,
+                        "serie": "F8",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "BTS",
+        "series": [
+            {
+                "type": "enseignement général",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "A4",
+                        "speciality": "allemand",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "A4",
+                        "speciality": "espagnol",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "C",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 4,
+                        "serie": "D",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "type": "enseignement technique",
+                "series": [
+                    {
+                        "id": 1,
+                        "serie": "F1",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 2,
+                        "serie": "F2",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 3,
+                        "serie": "F3",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 4,
+                        "serie": "F4",
+                        "speciality": "BA",
+                        "link": ""
+                    },
+                    {
+                        "id": 5,
+                        "serie": "F4",
+                        "speciality": "BE",
+                        "link": ""
+                    },
+                    {
+                        "id": 6,
+                        "serie": "F4",
+                        "speciality": "TP",
+                        "link": ""
+                    },
+                    {
+                        "id": 7,
+                        "serie": "F5",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 8,
+                        "serie": "F6",
+                        "speciality": "",
+                        "link": ""
+                    },
+                    {
+                        "id": 9,
+                        "serie": "F7",
+                        "speciality": "Biochimie",
+                        "link": ""
+                    },
+                    {
+                        "id": 10,
+                        "serie": "F7",
+                        "speciality": "Biologie",
+                        "link": ""
+                    },
+                    {
+                        "id": 11,
+                        "serie": "F8",
+                        "speciality": "",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
